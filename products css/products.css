@@ -1,0 +1,30 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 999;
+}
+
+.mgtop {
+  margin-top: 4.5rem !important;
+}
+
+header .container {
+  height: 60px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+#container {
+  min-width: 310px;
+  max-width: 800px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+header a:hover {
+  text-decoration: none;
+}
